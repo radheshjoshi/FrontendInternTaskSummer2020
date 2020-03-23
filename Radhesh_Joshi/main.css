@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color:gray;
+  font-family: "open sans", helvetica, arial, sans;
+}
+.logo{
+  width: 100px;
+}
+h2 {
+  text-align: center;
+  color: #fff;
+}
+.log-form {
+  padding: 2em;
+  -webkit-box-shadow: 4px -1px 53px -7px rgba(138, 138, 138, 0.30);
+  -moz-box-shadow: 4px -1px 53px -7px rgba(138, 138, 138, 0.30);
+  box-shadow: 4px -1px 53px -7px rgba(138, 138, 138, 0.30);
+}
+
+form {
+  display: block;
+  text-align: center;
+  width: 100%;
+}
+/* ========================WRITE YOUR CSS FROM HERE======================== */
+.log-form{
+  width: 100%;
+  max-width: 475px;
+  margin-left: 30%;
+  margin-right: 30%;
+  overflow: hidden;
+  background: rgba(0,0,0,.8);
+  box-shadow: 0 4px 32px rgba(0,0,0,.5);
+}
+.text-input{
+  background: transparent;
+  color: #fff;
+  margin: 1rem 0;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: .5px solid hsla(0,0%,100%,.54);
+}
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type=number] {
+  -moz-appearance: textfield;
+}
+.input-head{
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  margin: 2.5%;
+}
+.label-head{
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+}
+.input-age{
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+.input-age>label{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+.input-age span{
+  margin-left: 3px;
+  margin-right: 20px;
+  font-size: 14px;
+}
+.submit-button{
+  background-color: #fff;
+  font-size: 18px;
+  border-radius: 2px;
+  border-style: none;
+  height: 40px;
+  width: 90px;
+  cursor: pointer;
+}
+.submit-button:hover{
+  color: #fff;
+  background-color: darkgray;
+}
+input[type=radio]{
+  margin: 0;
+  align-items: baseline;
+  height: 16px;
+  width: 16px;
+}
+@media only screen and (max-width:768px){
+    .log-form{
+      margin-left: 0;
+      margin-right: 0;
+    }
+}
